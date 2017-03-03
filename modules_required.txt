@@ -1,0 +1,13 @@
+# What I needed to install to get this to working:
+
+sudo pip3 install -U pip
+sudo pip3 install -U jupyter
+sudo pip3 install -U numpy
+sudo pip3 install -U scipy
+sudo pip3 install -U setuptools
+sudo pip3 install -U matplotlib
+sudo pip3 install -U sklearn
+sudo pip3 install -U pyyaml
+sudo pip3 install -U h5py
+sudo pip3 install -U tables
+
