@@ -7,8 +7,9 @@ if [ \( "`which ipython`" != /pio/os/anaconda/bin/ipython \) -a \( -e /pio/os/an
 then
     echo "Adding Anaconda Python from /pio/os to your environment"
     source /pio/os/anaconda/set-env.sh
-    source /pio/os/cuda-8.0/set-env.sh
 fi
+
+source /pio/os/cuda-8.0/set-env.sh
 
 export FUEL_DATA_PATH=/pio/data/data/fuel/
 
